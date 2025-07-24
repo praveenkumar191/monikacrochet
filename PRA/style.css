@@ -1,0 +1,111 @@
+*{
+  text-decoration: none;
+} 
+.body 
+{
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+}
+
+    .promo-banner {
+      background-color: #e6d2e1;
+      color: #333;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      font-family: 'Georgia', serif;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .nav-icons {
+      font-size: 20px;
+    }
+
+    .collection-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .collection-section img {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .navbar{
+      text-decoration: none;
+      text-align: end;
+    }
+    .title2{
+      font-size: larger;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+.title{
+
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+  }
+.cards{
+  background-color:#be2199;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: #ffffff;
+  width: 280px;
+  transition: transform 0.3s ease;
+}
+.cards:hover{
+  transform: translateY(-5px);
+}
+.cards h3{
+  color: #dee4dd;
+  margin-bottom: 1opx;
+}
+.navbar ul{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+
+}
+.nav-icons a{
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(1, 10, 10);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.navbar a:hover,:active{
+  color: #be2199;
+}
+.cards{
+  background-image:url(a\ highly\ detailed\ and\ photorealistic\ ima….jpg)
+  
+  }
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 40px;
+}
